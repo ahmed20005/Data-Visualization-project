@@ -1,12 +1,4 @@
-# Data files
-*.csv
-*.xlsx
-*.xls
-
-# Jupyter notebooks
-*.ipynb_checkpoints/
-.ipynb_checkpoints/
-
+```gitignore
 # Python
 __pycache__/
 *.pyc
@@ -18,21 +10,35 @@ venv/
 .venv/
 .ENV
 .ENV.*
-.venv/
-venv/
-ENV/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
+.env
+.env.*
+.python-version
+.pytest_cache/
+.mypy_cache/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+coverage/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
 *.log
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Icon?
+.directory
+.fseventsd
 
 # IDE
 .vscode/
@@ -46,37 +52,17 @@ Thumbs.db
 .env.local
 *.env.*
 
-# Dependencies
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+# Coverage
+coverage/
 htmlcov/
-.coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+# Distribution / packaging
 *.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.hypothesis/
+```
