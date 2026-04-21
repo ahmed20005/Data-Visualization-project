@@ -30,8 +30,10 @@ The dashboard includes all required chart types from the course curriculum:
 - **Bar Chart**: GDP per Capita by Region
 
 #### Week 2: Advanced Comparison Charts
-- **Stacked Column Chart**: Enrollment Rates by Education Level
-- **Clustered Bar Chart**: Male vs Female Literacy Rates
+- **Stacked Column Chart**: Enrollment Rates by Education Level (Vertical)
+- **Stacked Bar Chart**: Enrollment Rates by Education Level (Horizontal)
+- **Clustered Column Chart**: Male vs Female Literacy Rates (Vertical)
+- **Clustered Bar Chart**: Male vs Female Literacy Rates (Horizontal)
 
 #### Week 3: Relationship Charts
 - **Scatter Chart**: GDP vs Literacy Rate relationship
