@@ -9,9 +9,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
+import os
+
+# Get the directory where the script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load the cleaned dataset
-df = pd.read_csv('cleaned_education_data.csv')
+df = pd.read_csv(os.path.join(script_dir, 'cleaned_education_data.csv'))
 
 # Create continent grouping
 def get_continent(region):
